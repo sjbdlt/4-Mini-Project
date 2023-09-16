@@ -1,16 +1,41 @@
 body{
+    
     background-color: aliceblue;
 
 }
 
+main{
+    width: 100%;
+}
+
 div{
+    display: flex;
+    justify-content: center;
     margin: 10px;
     padding: 10px;
     
     
 }
+#divtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    margin: 10px;
+}
+
+#startgame{
+    width: 125px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+}
 
 #word{
+    display: flex;
+   text-align: center;
     border: none;
     background-color: aliceblue;
 }

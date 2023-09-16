@@ -8,20 +8,27 @@
     <title>Word Guess Game</title>
   </head>
   <body>
-    <h1>Figure out the word</h1>
-
-    <div>
-        <h3>Time Left - </h3><label id="timer"></label>
-    </div>
-    <div class="card">
-      <input type="text" id="word"/>
-    </div>
-    <div>
-
-      <h4>WINS: </h4> <label id="lblwin">0</label>
-      <h4>Losses: </h4> <label id="lblloss">0</label>
+    <main>
+     <div><h1>Figure out the word</h1></div>
+      <div>
+      <button  id="startgame">Start Game</button>
     </div>
 
+      <div>        
+          <h3>Time Left - <label id="timer"></label> </h3>
+      </div>
+      <div id="divtext">
+        <input type="text" id="word" style="font-size: large;" value="J_ v _ S c r_ _T"/>
+      </div>
+      <div>          
+        <button id="resetgame">Reset Score</button>
+      </div>
+      <div>
+        <h4>WINS:  <label id="lblwin">0</label> </h4>
+        <h4>Losses:  <label id="lblloss">0</label> </h4>
+      </div>
+    </main>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
+
